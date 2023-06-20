@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.etButton.setOnClickListener {
+           val intent = Intent(this,login::class.java)
+            startActivity(intent)
             validateSignUp()
         }
 
