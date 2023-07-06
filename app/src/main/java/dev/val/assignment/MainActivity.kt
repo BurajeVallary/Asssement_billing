@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
 
 
         if (!error) {
-            Toast.makeText(this, "$name $email $phone", Toast.LENGTH_LONG).show()
+            Toast.makeText(this,"congratulations", Toast.LENGTH_LONG).show()
         }
     }
 
